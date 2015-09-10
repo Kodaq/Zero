@@ -1,0 +1,125 @@
+﻿[2015.09.10-11.08.54:054][  0]Log file open, 09/10/15 13:08:54
+[2015.09.10-11.08.54:054][  0]LogInit:Display: Running engine for game: Zero
+[2015.09.10-11.08.54:054][  0]LogInit:Display: RandInit(43880148) SRandInit(43880148).
+[2015.09.10-11.08.54:054][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.10-11.08.54:054][  0]LogStats: Stats thread started at 0.076362
+[2015.09.10-11.08.54:054][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.10-11.08.54:054][  0]LogInit: API Version: 2672455
+[2015.09.10-11.08.54:054][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.10-11.08.54:054][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.10-11.08.54:054][  0]LogInit: Build Configuration: Development
+[2015.09.10-11.08.54:054][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.10-11.08.54:054][  0]LogInit: Command line:  
+[2015.09.10-11.08.54:054][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.10-11.08.54:054][  0]LogInit: Rocket: 1
+[2015.09.10-11.08.54:078][  0]LogInit: Using libcurl 7.41.0
+[2015.09.10-11.08.54:078][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.10-11.08.54:078][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.10-11.08.54:078][  0]LogInit:  - other features:
+[2015.09.10-11.08.54:078][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.10-11.08.54:078][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.10-11.08.54:078][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.10-11.08.54:078][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.10-11.08.54:078][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.10-11.08.54:078][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.10-11.08.54:078][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.10-11.08.54:078][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.10-11.08.54:078][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.10-11.08.54:078][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.10-11.08.54:085][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.10-11.08.54:093][  0]LogInit: Object subsystem initialized
+[2015.09.10-11.08.54:094][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.10-11.08.54:094][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.10-11.08.54:124][  0]LogInit: Computer: KREW
+[2015.09.10-11.08.54:124][  0]LogInit: User: Willo
+[2015.09.10-11.08.54:124][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.10-11.08.54:124][  0]LogInit: High frequency timer resolution =2.435881 MHz
+[2015.09.10-11.08.54:124][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.09.10-11.08.54:124][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.10-11.08.54:124][  0]LogMemory: Process Physical Memory: 54.28 MB used, 54.28 MB peak
+[2015.09.10-11.08.54:124][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.09.10-11.08.54:124][  0]LogMemory: Physical Memory: 4709.54 MB used, 12265.51 MB total
+[2015.09.10-11.08.54:124][  0]LogMemory: Virtual Memory: 364.33 MB used, 134217728.00 MB total
+[2015.09.10-11.08.54:517][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.10-11.08.55:281][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 570M (Feature Level 11_0)
+[2015.09.10-11.08.55:281][  0]LogD3D11RHI: Adapter has 1484MB of dedicated video memory, 0MB of dedicated system memory, and 2559MB of shared system memory, 2 output[s]
+[2015.09.10-11.08.55:283][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.10-11.08.55:283][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6132MB of shared system memory, 0 output[s]
+[2015.09.10-11.08.55:283][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.10-11.08.55:286][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.10-11.08.55:286][  0]LogRHI: Texture pool is 1039 MB (70% of 1484 MB)
+[2015.09.10-11.08.55:294][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.10-11.08.55:311][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../DATA/Projekt/Zero/Intermediate/Shaders/WorkingDirectory/10956/).
+[2015.09.10-11.08.55:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../DATA/Projekt/Zero/Intermediate/Shaders/tmp/531C5A7241C57B3E41F7B89FAA66EDF6/'.
+[2015.09.10-11.08.55:311][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.10-11.08.57:228][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.10-11.08.57:233][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.10-11.08.57:239][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.10-11.08.57:244][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.10-11.08.57:249][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.10-11.08.57:254][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.10-11.08.57:258][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.10-11.08.57:261][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.10-11.08.57:265][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.10-11.08.57:268][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.10-11.08.57:272][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.10-11.08.57:275][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.10-11.08.57:276][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.10-11.08.57:295][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.10-11.08.57:298][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.10-11.08.57:301][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.10-11.08.57:307][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.10-11.08.57:307][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-11.08.57:514][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.10-11.08.57:770][  0]LogDerivedDataCache: Loaded boot cache 0.26s 41MB C:/Users/Willo/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.10-11.08.57:770][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Willo/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.10-11.08.57:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../DATA/Projekt/Zero/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.10-11.08.57:837][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.10-11.08.57:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../DATA/Projekt/Zero/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.10-11.08.57:837][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.10-11.08.58:102][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.10-11.08.58:150][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Willo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.10-11.09.03:703][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.10-11.09.03:837][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.10-11.09.05:597][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.10-11.09.05:597][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.10-11.09.08:843][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.10-11.09.18:854][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.10-11.09.19:468][  0]LogAssetRegistry: FAssetRegistry took 0.0149 seconds to start up
+[2015.09.10-11.09.23:182][  0]SourceControl: Info Source control is disabled
+[2015.09.10-11.09.23:183][  0]SourceControl: Info Source control is disabled
+[2015.09.10-11.09.23:227][  0]SourceControl: Info Source control is disabled
+[2015.09.10-11.09.23:262][  0]SourceControl: Info Source control is disabled
+[2015.09.10-11.09.24:063][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.10-11.09.24:337][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.10-11.09.24:337][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.10-11.09.25:066][  0]LogEngine: Initializing Engine...
+[2015.09.10-11.09.25:145][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_6.dll
+
+[2015.09.10-11.09.25:746][  0]OCULUS: Error: [CAPI] ovrHmd_Create failed to complete within the timeout period.
+[2015.09.10-11.09.25:950][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.10-11.09.26:847][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.10-11.09.27:031][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.10-11.09.27:103][  0]LogInit: FAudioDevice initialized.
+[2015.09.10-11.09.27:122][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Willo/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.10-11.09.27:137][  0]LogInit: Texture streaming: Enabled
+[2015.09.10-11.09.27:173][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.10-11.09.27:185][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.10-11.09.27:185][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 78b1fb054bb455389a4eb88fbec61669|c91bf2efd0ea4f45925e7be4417cb738|d759af29-1f7e-474e-b0ae-cdd54b1788e3
+[2015.09.10-11.09.27:197][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.10-11.09.27:383][  0]LogInit: Transaction tracking system initialized
+[2015.09.10-11.09.27:693][  0]BlueprintLog: New page: Editor Load
+[2015.09.10-11.09.29:070][  0]LocalizationService: Info Localization service is disabled
+[2015.09.10-11.09.29:687][  0]LogConsoleResponse:Display: 
+[2015.09.10-11.09.31:410][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.10-11.09.31:999][  0]SourceControl: Info Source control is disabled
+[2015.09.10-11.09.32:048][  0]Cmd: MAP LOAD FILE="../../../../../../DATA/Projekt/Zero/Content/Zer0/Maps/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.10-11.09.32:128][  0]LightingResults: New page: Lighting Build
+[2015.09.10-11.09.32:243][  0]MapCheck: New page: Map Check
+[2015.09.10-11.09.32:243][  0]LightingResults: New page: Lighting Build
+[2015.09.10-11.09.32:463][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9B8167CE0
+[2015.09.10-11.09.34:510][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.10-11.09.34:510][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.10-11.09.34:511][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.10-11.09.34:514][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0041.44] Compile of StartMenu successful, but with 3 Warning(s) [in 26 ms]
+[2015.09.10-11.09.34:524][  0]LogBlueprint:Warni

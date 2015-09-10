@@ -1,0 +1,296 @@
+﻿[2015.09.06-13.49.28:759][  0]Log file open, 09/06/15 15:49:28
+[2015.09.06-13.49.28:759][  0]LogInit:Display: Running engine for game: Zero
+[2015.09.06-13.49.28:759][  0]LogInit:Display: RandInit(-350295509) SRandInit(-350295509).
+[2015.09.06-13.49.28:759][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.06-13.49.28:759][  0]LogStats: Stats thread started at 0.070924
+[2015.09.06-13.49.28:759][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.06-13.49.28:759][  0]LogInit: API Version: 2672455
+[2015.09.06-13.49.28:759][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.06-13.49.28:759][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.06-13.49.28:759][  0]LogInit: Build Configuration: Development
+[2015.09.06-13.49.28:759][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.06-13.49.28:759][  0]LogInit: Command line:  /Temp/Autosaves/Game/Zer0/Maps/UEDPCStartMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2015.09.06-13.49.28:759][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.06-13.49.28:759][  0]LogInit: Rocket: 1
+[2015.09.06-13.49.28:769][  0]LogInit: Using libcurl 7.41.0
+[2015.09.06-13.49.28:769][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.06-13.49.28:769][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.06-13.49.28:769][  0]LogInit:  - other features:
+[2015.09.06-13.49.28:769][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.06-13.49.28:769][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.06-13.49.28:769][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.06-13.49.28:769][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.06-13.49.28:769][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.06-13.49.28:769][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.06-13.49.28:769][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.06-13.49.28:769][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.06-13.49.28:769][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.06-13.49.28:769][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.06-13.49.28:775][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.06-13.49.28:781][  0]LogInit: Object subsystem initialized
+[2015.09.06-13.49.28:782][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.06-13.49.28:782][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.06-13.49.28:784][  0]LogInit: Computer: WILLE-PC
+[2015.09.06-13.49.28:784][  0]LogInit: User: Wille
+[2015.09.06-13.49.28:784][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.06-13.49.28:784][  0]LogInit: High frequency timer resolution =3.320390 MHz
+[2015.09.06-13.49.28:784][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.06-13.49.28:784][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.06-13.49.28:784][  0]LogMemory: Process Physical Memory: 55.09 MB used, 55.09 MB peak
+[2015.09.06-13.49.28:784][  0]LogMemory: Process Virtual Memory: 58.22 MB used, 58.22 MB peak
+[2015.09.06-13.49.28:784][  0]LogMemory: Physical Memory: 5717.46 MB used, 16312.56 MB total
+[2015.09.06-13.49.28:784][  0]LogMemory: Virtual Memory: 338.34 MB used, 8388608.00 MB total
+[2015.09.06-13.49.28:815][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.06-13.49.29:407][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2015.09.06-13.49.29:407][  0]LogD3D11RHI: Adapter has 3013MB of dedicated video memory, 0MB of dedicated system memory, and 7900MB of shared system memory, 1 output[s]
+[2015.09.06-13.49.29:407][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.06-13.49.29:411][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.06-13.49.29:411][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.06-13.49.29:416][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.06-13.49.29:773][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Wille/Documents/maya/projects/Zero/Intermediate/Shaders/WorkingDirectory/7792/).
+[2015.09.06-13.49.29:773][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Wille/Documents/maya/projects/Zero/Intermediate/Shaders/tmp/71669B9D498BE5D3EA5ED58D29F5D694/'.
+[2015.09.06-13.49.29:773][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.06-13.49.30:629][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.06-13.49.30:634][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.06-13.49.30:638][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.06-13.49.30:642][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.06-13.49.30:646][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.06-13.49.30:649][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.06-13.49.30:652][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.06-13.49.30:655][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.06-13.49.30:657][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.06-13.49.30:660][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.06-13.49.30:663][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.06-13.49.30:666][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.06-13.49.30:666][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.06-13.49.30:681][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.06-13.49.30:683][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.06-13.49.30:686][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.06-13.49.30:689][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.06-13.49.30:689][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.06-13.49.30:745][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Wille/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wille/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wille/Documents/maya/projects/Zero/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Wille/Documents/maya/projects/Zero/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.06-13.49.30:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.06-13.49.30:904][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.06-13.49.30:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wille/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.06-13.49.31:043][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.06-13.49.31:043][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.09.06-13.49.31:054][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.06-13.49.31:054][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.06-13.49.31:329][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.06-13.49.31:469][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Movies/Default_Startup.mp4
+[2015.09.06-13.49.31:547][  0]SourceControl: Info Source control is disabled
+[2015.09.06-13.49.31:547][  0]SourceControl: Info Source control is disabled
+[2015.09.06-13.49.31:554][  0]SourceControl: Info Source control is disabled
+[2015.09.06-13.49.31:618][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.06-13.49.31:673][  0]LogObj: 27669 objects as part of root set at end of initial load.
+[2015.09.06-13.49.31:673][  0]LogUObjectAllocator: 5775696 out of 0 bytes used by permanent object pool.
+[2015.09.06-13.49.31:721][  0]LogEngine: Initializing Engine...
+[2015.09.06-13.49.31:722][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+[2015.09.06-13.49.32:322][  0]OCULUS: Error: [CAPI] ovrHmd_Create failed to complete within the timeout period.
+[2015.09.06-13.49.32:422][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.06-13.49.32:440][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2015.09.06-13.49.32:661][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2015.09.06-13.49.32:679][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.09.06-13.49.32:680][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.09.06-13.49.32:680][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.09.06-13.49.32:687][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2015.09.06-13.49.32:873][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2015.09.06-13.49.32:896][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2015.09.06-13.49.32:932][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2015.09.06-13.49.32:939][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2015.09.06-13.49.32:947][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2015.09.06-13.49.32:955][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2015.09.06-13.49.32:963][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2015.09.06-13.49.32:970][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2015.09.06-13.49.32:975][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2015.09.06-13.49.32:983][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2015.09.06-13.49.33:003][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2015.09.06-13.49.33:015][  0]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.06-13.49.33:022][  0]LogInit: FAudioDevice initialized.
+[2015.09.06-13.49.33:026][  0]LogInit: Texture streaming: Enabled
+[2015.09.06-13.49.33:029][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2015.09.06-13.49.33:034][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2015.09.06-13.49.33:044][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2015.09.06-13.49.33:044][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2015.09.06-13.49.33:044][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2015.09.06-13.49.33:047][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2015.09.06-13.49.33:051][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2015.09.06-13.49.33:056][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2015.09.06-13.49.33:061][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2015.09.06-13.49.33:065][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2015.09.06-13.49.33:070][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2015.09.06-13.49.33:075][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2015.09.06-13.49.33:080][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2015.09.06-13.49.33:086][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2015.09.06-13.49.33:091][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2015.09.06-13.49.33:096][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2015.09.06-13.49.33:101][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2015.09.06-13.49.33:105][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2015.09.06-13.49.33:111][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2015.09.06-13.49.33:115][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2015.09.06-13.49.33:122][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2015.09.06-13.49.33:127][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2015.09.06-13.49.33:141][  0]LogNet: Browse: /Temp/Autosaves/Game/Zer0/Maps/UEDPCStartMenu?Name=Player
+[2015.09.06-13.49.33:141][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Zer0/Maps/UEDPCStartMenu?Name=Player
+[2015.09.06-13.49.33:157][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012ED4220
+[2015.09.06-13.49.33:169][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.06-13.49.33:169][  0]LogMemory: Process Physical Memory: 506.96 MB used, 508.73 MB peak
+[2015.09.06-13.49.33:169][  0]LogMemory: Process Virtual Memory: 529.77 MB used, 535.47 MB peak
+[2015.09.06-13.49.33:169][  0]LogMemory: Physical Memory: 6231.23 MB used, 16312.56 MB total
+[2015.09.06-13.49.33:169][  0]LogMemory: Virtual Memory: 1066.90 MB used, 8388608.00 MB total
+[2015.09.06-13.49.33:169][  0]LogMemory: 
+[2015.09.06-13.49.33:169][  0]Allocator Stats for TBB: (not implemented)
+[2015.09.06-13.49.33:564][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:564][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:565][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:568][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.08] Compile of StartMenu successful, but with 3 Warning(s) [in 7 ms]
+[2015.09.06-13.49.33:568][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.08] Compile of StartMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.09.06-13.49.33:568][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.08] Compile of StartMenu successful, but with 5 Warning(s) [in 0 ms]
+[2015.09.06-13.49.33:659][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:659][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:659][  0]LogBlueprint:Warning: [compiler StartMenu] Warning 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2015.09.06-13.49.33:662][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.18] Compile of StartMenu successful, but with 3 Warning(s) [in 6 ms]
+[2015.09.06-13.49.33:662][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.18] Compile of StartMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.09.06-13.49.33:662][  0]LogBlueprint:Warning: [compiler StartMenu] Warning [0005.18] Compile of StartMenu successful, but with 5 Warning(s) [in 0 ms]
+[2015.09.06-13.49.33:731][  0]LogMaterial: Missing cached shader map for material M_Template_Master, compiling. 
+[2015.09.06-13.49.33:798][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2015.09.06-13.49.33:841][  0]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2015.09.06-13.49.33:904][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.09.06-13.49.33:938][  0]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2015.09.06-13.49.33:996][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2015.09.06-13.49.34:069][  0]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.06-13.49.34:102][  0]LogWorld: Game class is 'MenuGameMode_C'
+[2015.09.06-13.49.34:106][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Zer0/Maps/UEDPCStartMenu.StartMenu up for play (max tick rate 0) at 2015.09.06-15.49.34
+[2015.09.06-13.49.34:107][  0]LogWorld: Bringing up level for play took: 0.003875
+[2015.09.06-13.49.34:113][  0]LogInit:Display: Game Engine Initialized.
+[2015.09.06-13.49.34:333][  0]LogLoad: Full Startup: 5.85 seconds (BP compile: 0.19 seconds)
+[2015.09.06-13.49.34:407][  0]LogEngine: All Windows Closed
+[2015.09.06-13.49.34:407][  0]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.09.06-13.49.34:423][  1]LogExit: Preparing to exit.
+[2015.09.06-13.49.34:539][  1]LogExit: Game engine shut down
+[2015.09.06-13.49.34:540][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000361B9440
+[2015.09.06-13.49.34:705][  1]LogExit: Object subsystem successfully closed.
+[2015.09.06-13.49.34:708][  1]LogD3D11RHI: Shutdown
+[2015.09.06-13.49.34:708][  1]LogD3D11RHI: CleanupD3DDevice
+[2015.09.06-13.49.34:733][  1]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (113)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (112)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (111)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (110)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2015.09.06-13.49.34:740][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module OculusRift (100)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2015.09.06-13.49.34:929][  1]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.06-13.49.34:936][  1]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.06-13.49.34:937][  1]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.06-13.49.34:938][  1]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.06-13.49.35:404][  1]LogDerivedDataCache: Shutdown
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.06-13.49.35:404][  1]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.06-13.49.35:405][  1]LogExit: Exiting.
+[2015.09.06-13.49.35:405][  1]Log file closed, 09/06/15 15:49:35

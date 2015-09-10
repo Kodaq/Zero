@@ -1,0 +1,1224 @@
+﻿[2015.09.04-16.58.50:521][  0]Log file open, 09/04/15 18:58:50
+[2015.09.04-16.58.50:521][  0]LogInit:Display: Running engine for game: Zero
+[2015.09.04-16.58.50:521][  0]LogInit:Display: RandInit(1347355795) SRandInit(1347355795).
+[2015.09.04-16.58.50:521][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.04-16.58.50:521][  0]LogStats: Stats thread started at 0.065478
+[2015.09.04-16.58.50:521][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.04-16.58.50:521][  0]LogInit: API Version: 2672455
+[2015.09.04-16.58.50:521][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.04-16.58.50:521][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.04-16.58.50:521][  0]LogInit: Build Configuration: Development
+[2015.09.04-16.58.50:521][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.04-16.58.50:521][  0]LogInit: Command line:  
+[2015.09.04-16.58.50:521][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.04-16.58.50:521][  0]LogInit: Rocket: 1
+[2015.09.04-16.58.50:533][  0]LogInit: Using libcurl 7.41.0
+[2015.09.04-16.58.50:533][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.04-16.58.50:533][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.04-16.58.50:533][  0]LogInit:  - other features:
+[2015.09.04-16.58.50:533][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.04-16.58.50:533][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.04-16.58.50:533][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.04-16.58.50:533][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.04-16.58.50:533][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.04-16.58.50:533][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.04-16.58.50:533][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.04-16.58.50:533][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.04-16.58.50:533][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.04-16.58.50:533][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.04-16.58.50:540][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.04-16.58.50:545][  0]LogInit: Object subsystem initialized
+[2015.09.04-16.58.50:547][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-16.58.50:547][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.04-16.58.50:554][  0]LogInit: Computer: WILLE-PC
+[2015.09.04-16.58.50:554][  0]LogInit: User: Wille
+[2015.09.04-16.58.50:554][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.04-16.58.50:554][  0]LogInit: High frequency timer resolution =3.320341 MHz
+[2015.09.04-16.58.50:554][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.04-16.58.50:554][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-16.58.50:554][  0]LogMemory: Process Physical Memory: 54.98 MB used, 54.98 MB peak
+[2015.09.04-16.58.50:554][  0]LogMemory: Process Virtual Memory: 57.22 MB used, 57.22 MB peak
+[2015.09.04-16.58.50:554][  0]LogMemory: Physical Memory: 4080.94 MB used, 16312.56 MB total
+[2015.09.04-16.58.50:554][  0]LogMemory: Virtual Memory: 337.40 MB used, 8388608.00 MB total
+[2015.09.04-16.58.50:580][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.04-16.58.51:205][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2015.09.04-16.58.51:205][  0]LogD3D11RHI: Adapter has 3013MB of dedicated video memory, 0MB of dedicated system memory, and 7900MB of shared system memory, 1 output[s]
+[2015.09.04-16.58.51:205][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.04-16.58.51:208][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.04-16.58.51:208][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.04-16.58.51:215][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.04-16.58.51:566][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Wille/Documents/maya/projects/Zero/Intermediate/Shaders/WorkingDirectory/2196/).
+[2015.09.04-16.58.51:568][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Wille/Documents/maya/projects/Zero/Intermediate/Shaders/tmp/18FB7E9B425694FC57F070817A93315F/'.
+[2015.09.04-16.58.51:568][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.04-16.58.52:488][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.04-16.58.52:492][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.04-16.58.52:496][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.04-16.58.52:500][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.04-16.58.52:504][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.04-16.58.52:506][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.04-16.58.52:509][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.04-16.58.52:511][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.04-16.58.52:514][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.04-16.58.52:516][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.04-16.58.52:519][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.04-16.58.52:522][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.04-16.58.52:522][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.04-16.58.52:537][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.04-16.58.52:539][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.04-16.58.52:541][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.04-16.58.52:544][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.04-16.58.52:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.04-16.58.52:605][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Wille/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wille/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wille/Documents/maya/projects/Zero/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Wille/Documents/maya/projects/Zero/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.04-16.58.52:638][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.04-16.58.52:757][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.04-16.58.52:768][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wille/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.04-16.58.52:890][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-16.58.52:891][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.04-16.58.52:908][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.04-16.58.52:908][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.04-16.58.53:167][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.04-16.58.53:673][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.04-16.58.53:754][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.09.04-16.58.53:878][  0]SourceControl: Info Source control is disabled
+[2015.09.04-16.58.53:878][  0]SourceControl: Info Source control is disabled
+[2015.09.04-16.58.53:884][  0]SourceControl: Info Source control is disabled
+[2015.09.04-16.58.53:891][  0]SourceControl: Info Source control is disabled
+[2015.09.04-16.58.53:991][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.04-16.58.54:042][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.04-16.58.54:042][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.04-16.58.54:088][  0]LogEngine: Initializing Engine...
+[2015.09.04-16.58.54:088][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+[2015.09.04-16.58.54:189][  0]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-16.58.54:189][  0]LogHMD: Oculus plugin initialized. Version: 4.9.0-2672455+++depot+UE4-Releases+4.9, LibOVR: 0.6.0.1, built Aug 28 2015, 12:34:17
+[2015.09.04-16.58.54:285][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.04-16.58.54:288][  0]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-16.58.54:293][  0]LogInit: FAudioDevice initialized.
+[2015.09.04-16.58.54:311][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Wille/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.04-16.58.54:313][  0]LogInit: Texture streaming: Enabled
+[2015.09.04-16.58.54:317][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.04-16.58.54:318][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.04-16.58.54:318][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6540259c44272ac00e4803a9d2000c1f|c91bf2efd0ea4f45925e7be4417cb738|b0ba5a04-5d1a-4a7d-a9eb-e5f5273f8928
+[2015.09.04-16.58.54:318][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.04-16.58.54:329][  0]LogInit: Transaction tracking system initialized
+[2015.09.04-16.58.54:353][  0]BlueprintLog: New page: Editor Load
+[2015.09.04-16.58.54:419][  0]LocalizationService: Info Localization service is disabled
+[2015.09.04-16.58.54:476][  0]LogConsoleResponse:Display: 
+[2015.09.04-16.58.54:570][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.04-16.58.54:613][  0]SourceControl: Info Source control is disabled
+[2015.09.04-16.58.54:613][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Maps/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.04-16.58.54:614][  0]LightingResults: New page: Lighting Build
+[2015.09.04-16.58.54:617][  0]MapCheck: New page: Map Check
+[2015.09.04-16.58.54:617][  0]LightingResults: New page: Lighting Build
+[2015.09.04-16.58.54:626][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021798400
+[2015.09.04-16.58.55:115][  0]LogBlueprint:Warning: [compiler shipMenu] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2015.09.04-16.58.55:117][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.01] Compile of shipMenu successful, but with 1 Warning(s) [in 13 ms]
+[2015.09.04-16.58.55:117][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.01] Compile of shipMenu successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.04-16.58.55:117][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.01] Compile of shipMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.04-16.58.55:398][  0]LogBlueprint:Warning: [compiler shipMenu] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2015.09.04-16.58.55:400][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.29] Compile of shipMenu successful, but with 1 Warning(s) [in 17 ms]
+[2015.09.04-16.58.55:400][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.29] Compile of shipMenu successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.04-16.58.55:401][  0]LogBlueprint:Warning: [compiler shipMenu] Warning [0005.29] Compile of shipMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.04-16.58.55:788][  0]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-16.58.55:795][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.04-16.58.55:795][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.04-16.58.55:827][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.534ms to complete.
+[2015.09.04-16.58.55:828][  0]LogFileHelpers: Loading map 'StartMenu' took 1.214
+[2015.09.04-16.58.55:901][  0]LogCollectionManager: Loaded 0 collections in 0.002188 seconds
+[2015.09.04-16.58.55:938][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wille/Documents/maya/projects/Zero/Saved/Collections/' took 0.01s
+[2015.09.04-16.58.55:938][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wille/Documents/maya/projects/Zero/Content/Developers/Wille/Collections/' took 0.01s
+[2015.09.04-16.58.55:938][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wille/Documents/maya/projects/Zero/Content/Collections/' took 0.01s
+[2015.09.04-16.58.55:938][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1868 classes and 335 folders.
+[2015.09.04-16.58.55:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.04-16.58.55:947][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.09.04-16.58.55:976][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.09.04-16.58.56:018][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.04-16.58.56:020][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.04-16.58.56:041][  0]LogLoad: Full Startup: 5.93 seconds (BP compile: 0.33 seconds)
+[2015.09.04-16.58.56:095][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.04-16.58.56:151][  0]LogRenderer: Reallocating scene render targets to support 2048x2048 (Frame:1).
+[2015.09.04-16.58.56:168][  0]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 419/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.58.56:588][  9]LogAssetRegistry: Asset discovery search completed in 2.8442 seconds
+[2015.09.04-16.58.56:588][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.04-16.58.56:588][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2015.09.04-16.58.57:251][ 23]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.04-16.58.57:667][ 23]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.09.04-16.58.58:891][ 23]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2015.09.04-16.58.58:891][ 23]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2015.09.04-16.58.58:891][ 23]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2015.09.04-16.58.58:891][ 23]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2015.09.04-16.59.17:973][210]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 731/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.18:081][213]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.36:395][658]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.37:034][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.38:541][721]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.39:591][750]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.40:450][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.42:831][837]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.42:982][839]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-16.59.43:066][839]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-16.59.43:070][839]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-16.59.43:097][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.04-16.59.43:100][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.09.04-16.59.43:861][922]MaterialEditorStats: Info Default UI Shader: 39 instructions
+[2015.09.04-16.59.43:861][922]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.04-16.59.55:433][311]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 731/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.55:517][317]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 814/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.56:689][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-16.59.56:689][349]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 8:59:56 PM)
+[2015.09.04-16.59.56:690][349]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-16.59.56:694][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004912s)
+[2015.09.04-16.59.56:695][349]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-16.59.56:695][349]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.09.04-16.59.56:695][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005591s)
+[2015.09.04-16.59.56:759][349]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-16.59.56:763][349]LogInit: FAudioDevice initialized.
+[2015.09.04-16.59.56:813][349]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-16.59.56:814][349]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-18.59.56
+[2015.09.04-16.59.56:814][349]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-16.59.56:814][349]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-16.59.56:815][349]LogWorld: Bringing up level for play took: 0.001376
+[2015.09.04-16.59.56:816][349]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-16.59.56:828][349]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu 0.013
+[2015.09.04-16.59.56:870][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 886/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-16.59.57:900][376]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.startMenu_C_0
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-16.59.57:900][376]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-16.59.58:414][390]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.gamemodeMenu_C_0
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-16.59.58:414][390]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-16.59.59:184][410]LogPackageName: SearchForPackageOnDisk took   0.042s to resolve TwinStickExampleMap.umap.
+[2015.09.04-16.59.59:229][410]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TwinStickExampleMap.umap.
+[2015.09.04-16.59.59:229][410]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-16.59.59:229][410]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-16.59.59:250][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049A491C0
+[2015.09.04-16.59.59:253][410]Cmd: MEM
+[2015.09.04-16.59.59:276][410]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-16.59.59:276][410]LogMemory: Process Physical Memory: 1120.11 MB used, 1123.27 MB peak
+[2015.09.04-16.59.59:276][410]LogMemory: Process Virtual Memory: 2613.48 MB used, 2890.86 MB peak
+[2015.09.04-16.59.59:276][410]LogMemory: Physical Memory: 5212.75 MB used, 16312.56 MB total
+[2015.09.04-16.59.59:276][410]LogMemory: Virtual Memory: 3251.18 MB used, 8388608.00 MB total
+[2015.09.04-16.59.59:276][410]LogMemory: 
+[2015.09.04-16.59.59:276][410]Allocator Stats for TBB: (not implemented)
+[2015.09.04-16.59.59:712][410]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-16.59.59:713][410]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-16.59.59:721][410]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-18.59.59
+[2015.09.04-16.59.59:721][410]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-16.59.59:721][410]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-16.59.59:721][410]LogWorld: Bringing up level for play took: 0.007601
+[2015.09.04-17.00.18:124][224]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.21:634][374]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.22:430][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.24:442][516]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.25:508][612]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.00.25:512][612]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.00.25:523][614]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.26:291][647]MaterialEditorStats: Info Default UI Shader: 39 instructions
+[2015.09.04-17.00.26:291][647]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.04-17.00.28:653][751]LogMaterialEditor: Saving and Compiling material animatedHpFill
+[2015.09.04-17.00.29:164][751]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.00.29:178][751]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.00.29:187][751]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.00.29:202][751]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.00.29:210][751]LogMaterial: 0.000951 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.00.30:247][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zer0/Materials/animatedHpFill" FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset" SILENT=true
+[2015.09.04-17.00.30:332][751]LogSavePackage: Save=8.704226ms
+[2015.09.04-17.00.30:332][751]LogSavePackage: Moving '../../../../../../Users/Wille/Documents/maya/projects/Zero/Saved/animatedHpFill11CD1E4E45F5043C3001F692B8550E27.tmp' to '../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset'
+[2015.09.04-17.00.30:333][751]LogSavePackage: Total save time: 85.172877ms
+[2015.09.04-17.00.30:333][751]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset
+[2015.09.04-17.00.30:345][753]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 757/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.38:262][105]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 757/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.52:940][728]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.00.53:054][731]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.04-17.00.59:873][ 22]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.09:795][443]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.10:414][473]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.11:073][505]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.11:579][530]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.11:844][544]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.12:300][566]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.14:546][663]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.14:870][677]LogEditorTransaction: Undo Edit Speed X
+[2015.09.04-17.01.14:895][677]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.01.14:901][677]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.01.14:904][677]LogMaterial: 0.000020 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.01.15:672][709]MaterialEditorStats: Info Default UI Shader: 39 instructions
+[2015.09.04-17.01.15:672][709]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.04-17.01.18:591][837]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.25:751][153]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.26:230][178]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.28:541][282]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.28:648][285]LogMaterial: Missing cached shader map for material animatedHPBackground, compiling. 
+[2015.09.04-17.01.28:700][285]LogMaterial: Missing cached shader map for material animatedHPBackground, compiling. 
+[2015.09.04-17.01.28:704][285]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.01.28:725][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.09.04-17.01.28:730][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.04-17.01.29:146][304]MaterialEditorStats: Info Default UI Shader: 40 instructions
+[2015.09.04-17.01.29:146][304]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.04-17.01.30:198][391]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.31:212][451]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.39:608][816]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 759/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.01.39:650][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B0B77E0
+[2015.09.04-17.01.42:020][878]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.02.07:245][879]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 763/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.02.10:123][961]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.02.13:782][375]LogMaterialEditor: Saving and Compiling material animatedHpFill
+[2015.09.04-17.02.14:288][375]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.02.14:302][375]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.02.14:339][375]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.02.14:356][375]LogMaterial: Missing cached shader map for material animatedHpFill, compiling. 
+[2015.09.04-17.02.14:364][375]LogMaterial: 0.000586 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.04-17.02.15:706][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zer0/Materials/animatedHpFill" FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset" SILENT=true
+[2015.09.04-17.02.15:735][375]LogSavePackage: Save=8.092843ms
+[2015.09.04-17.02.15:735][375]LogSavePackage: Moving '../../../../../../Users/Wille/Documents/maya/projects/Zero/Saved/animatedHpFill649B242F4E3470CF121EF0AD987761D8.tmp' to '../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset'
+[2015.09.04-17.02.15:736][375]LogSavePackage: Total save time: 29.086471ms
+[2015.09.04-17.02.15:736][375]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Materials/animatedHpFill.uasset
+[2015.09.04-17.02.15:747][377]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 462/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.02.59:228][593]BlueprintLog: New page: Compile playerUI
+[2015.09.04-17.02.59:345][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zer0/UMG/playerUI" FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/UMG/playerUI.uasset" SILENT=true
+[2015.09.04-17.02.59:379][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:379][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:379][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:379][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:379][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:391][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:391][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:391][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:391][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:391][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:402][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:402][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:402][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:402][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:402][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:429][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:429][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:429][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:429][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:429][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:447][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:447][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:448][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:448][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:448][593]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/UMG/playerUI.playerUI' which is setup as pure
+[2015.09.04-17.02.59:459][593]LogSavePackage: Save=90.650932ms
+[2015.09.04-17.02.59:459][593]LogSavePackage: Moving '../../../../../../Users/Wille/Documents/maya/projects/Zero/Saved/playerUI0BC672654B199945727F3B9053CC504D.tmp' to '../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/UMG/playerUI.uasset'
+[2015.09.04-17.02.59:460][593]LogSavePackage: Total save time: 114.508722ms
+[2015.09.04-17.02.59:460][593]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/UMG/playerUI.uasset
+[2015.09.04-17.02.59:461][593]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.09.04-17.02.59:462][593]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.09.04-17.02.59:462][593]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.09.04-17.02.59:462][593]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.09.04-17.02.59:462][593]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.09.04-17.02.59:462][593]BlueprintEditorCompileResults: Info [0249.35] Compile of playerUI successful! [in 233 ms]
+[2015.09.04-17.03.00:128][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.03.00:129][668]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.03.00:129][668]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:03:00 PM)
+[2015.09.04-17.03.00:129][668]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.03.00:133][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004451s)
+[2015.09.04-17.03.00:134][668]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.03.00:134][668]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2015.09.04-17.03.00:134][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005173s)
+[2015.09.04-17.03.00:159][668]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.03.00:162][668]LogInit: FAudioDevice initialized.
+[2015.09.04-17.03.00:191][668]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.03.00:193][668]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.03.00
+[2015.09.04-17.03.00:193][668]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.00:193][668]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.00:193][668]LogWorld: Bringing up level for play took: 0.001383
+[2015.09.04-17.03.00:193][668]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.04-17.03.00:195][668]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.03.00:202][668]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu -0.615
+[2015.09.04-17.03.00:236][670]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 788/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.03.01:213][695]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.startMenu_C_1
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.03.01:213][695]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.03.01:681][708]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.gamemodeMenu_C_1
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-17.03.01:681][708]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-17.03.02:684][735]LogPackageName: SearchForPackageOnDisk took   0.043s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.03.02:729][735]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.03.02:729][735]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.03.02:729][735]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.03.02:750][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013B6D580
+[2015.09.04-17.03.02:753][735]Cmd: MEM
+[2015.09.04-17.03.02:775][735]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.03.02:775][735]LogMemory: Process Physical Memory: 1286.50 MB used, 1294.30 MB peak
+[2015.09.04-17.03.02:775][735]LogMemory: Process Virtual Memory: 2945.84 MB used, 3129.02 MB peak
+[2015.09.04-17.03.02:775][735]LogMemory: Physical Memory: 5514.79 MB used, 16312.56 MB total
+[2015.09.04-17.03.02:775][735]LogMemory: Virtual Memory: 3552.40 MB used, 8388608.00 MB total
+[2015.09.04-17.03.02:775][735]LogMemory: 
+[2015.09.04-17.03.02:775][735]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.03.02:963][735]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.03.02:963][735]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.03.02:971][735]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.03.02
+[2015.09.04-17.03.02:971][735]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.02:971][735]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.02:971][735]LogWorld: Bringing up level for play took: 0.007199
+[2015.09.04-17.03.13:688][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013BFC2C0
+[2015.09.04-17.03.24:784][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.03.24:785][555]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.03.24:785][555]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:03:24 PM)
+[2015.09.04-17.03.24:785][555]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.03.24:790][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004736s)
+[2015.09.04-17.03.24:790][555]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.03.24:790][555]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2015.09.04-17.03.24:790][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005343s)
+[2015.09.04-17.03.24:820][555]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.03.24:823][555]LogInit: FAudioDevice initialized.
+[2015.09.04-17.03.24:855][555]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.03.24:857][555]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.03.24
+[2015.09.04-17.03.24:857][555]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.24:857][555]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.24:857][555]LogWorld: Bringing up level for play took: 0.001618
+[2015.09.04-17.03.24:858][555]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.04-17.03.24:859][555]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.03.24:866][555]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu 0.05
+[2015.09.04-17.03.24:902][557]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 788/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.03.25:680][577]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.startMenu_C_2
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.03.25:680][577]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.03.26:140][590]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.gamemodeMenu_C_2
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-17.03.26:141][590]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-17.03.27:033][614]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.03.27:076][614]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.03.27:076][614]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.03.27:076][614]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.03.27:100][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049ABE5C0
+[2015.09.04-17.03.27:100][614]Cmd: MEM
+[2015.09.04-17.03.27:121][614]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.03.27:121][614]LogMemory: Process Physical Memory: 1309.89 MB used, 1313.81 MB peak
+[2015.09.04-17.03.27:121][614]LogMemory: Process Virtual Memory: 2968.80 MB used, 3129.02 MB peak
+[2015.09.04-17.03.27:121][614]LogMemory: Physical Memory: 5533.48 MB used, 16312.56 MB total
+[2015.09.04-17.03.27:121][614]LogMemory: Virtual Memory: 3586.21 MB used, 8388608.00 MB total
+[2015.09.04-17.03.27:121][614]LogMemory: 
+[2015.09.04-17.03.27:121][614]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.03.27:309][614]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.03.27:309][614]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.03.27:317][614]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.03.27
+[2015.09.04-17.03.27:317][614]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.27:317][614]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.27:317][614]LogWorld: Bringing up level for play took: 0.007007
+[2015.09.04-17.03.33:487][911]Cmd: RestartLevel
+[2015.09.04-17.03.33:507][912]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap?restart
+[2015.09.04-17.03.33:526][912]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.03.33:554][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013B32B60
+[2015.09.04-17.03.33:554][912]Cmd: MEM
+[2015.09.04-17.03.33:576][912]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.03.33:576][912]LogMemory: Process Physical Memory: 1312.70 MB used, 1318.86 MB peak
+[2015.09.04-17.03.33:576][912]LogMemory: Process Virtual Memory: 2864.01 MB used, 3129.02 MB peak
+[2015.09.04-17.03.33:576][912]LogMemory: Physical Memory: 5538.96 MB used, 16312.56 MB total
+[2015.09.04-17.03.33:576][912]LogMemory: Virtual Memory: 3481.53 MB used, 8388608.00 MB total
+[2015.09.04-17.03.33:576][912]LogMemory: 
+[2015.09.04-17.03.33:576][912]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.03.33:765][912]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.03.33:765][912]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.03.33:772][912]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.03.33
+[2015.09.04-17.03.33:772][912]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.33:772][912]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.03.33:773][912]LogWorld: Bringing up level for play took: 0.006946
+[2015.09.04-17.04.12:737][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013B30900
+[2015.09.04-17.04.14:484][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.04.14:485][798]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.04.14:485][798]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:04:14 PM)
+[2015.09.04-17.04.14:485][798]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.04.14:490][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004752s)
+[2015.09.04-17.04.14:490][798]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.04.14:490][798]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2015.09.04-17.04.14:490][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005467s)
+[2015.09.04-17.04.14:515][798]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.04.14:518][798]LogInit: FAudioDevice initialized.
+[2015.09.04-17.04.14:549][798]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.14:551][798]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.04.14
+[2015.09.04-17.04.14:551][798]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.14:551][798]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.14:551][798]LogWorld: Bringing up level for play took: 0.001353
+[2015.09.04-17.04.14:551][798]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.04-17.04.14:553][798]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.04.14:561][798]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu -0.256
+[2015.09.04-17.04.14:596][800]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 788/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.15:397][820]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.startMenu_C_3
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.04.15:397][820]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.04.15:746][829]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.gamemodeMenu_C_3
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-17.04.15:746][829]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-17.04.16:635][850]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.16:680][850]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.16:680][850]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.16:680][850]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.16:705][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021757740
+[2015.09.04-17.04.16:705][850]Cmd: MEM
+[2015.09.04-17.04.16:728][850]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.04.16:728][850]LogMemory: Process Physical Memory: 1306.54 MB used, 1320.13 MB peak
+[2015.09.04-17.04.16:728][850]LogMemory: Process Virtual Memory: 2962.28 MB used, 3129.02 MB peak
+[2015.09.04-17.04.16:728][850]LogMemory: Physical Memory: 5532.45 MB used, 16312.56 MB total
+[2015.09.04-17.04.16:728][850]LogMemory: Virtual Memory: 3579.41 MB used, 8388608.00 MB total
+[2015.09.04-17.04.16:728][850]LogMemory: 
+[2015.09.04-17.04.16:728][850]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.04.16:919][850]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.04.16:920][850]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.16:927][850]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.04.16
+[2015.09.04-17.04.16:927][850]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.16:927][850]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.16:928][850]LogWorld: Bringing up level for play took: 0.007091
+[2015.09.04-17.04.22:973][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002628CFE0
+[2015.09.04-17.04.24:345][244]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 763/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.24:408][247]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.33:011][448]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.33:657][463]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.35:356][501]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.42:193][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementE44B9CC74AAC83AB80026E84F79B0E99) Not registered. Aborting.
+[2015.09.04-17.04.42:193][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement1A3814E714D988785F84A5C8FE8F6EF10) Not registered. Aborting.
+[2015.09.04-17.04.42:200][281]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 480/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.43:425][428]BlueprintLog: New page: Compile Player1_Ship
+[2015.09.04-17.04.43:654][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zer0/Blueprints/Player1_Ship" FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset" SILENT=true
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:697][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:698][428]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:721][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:722][428]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:744][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:744][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:745][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:746][428]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:814][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:856][428]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:857][428]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:857][428]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.43:857][428]LogSavePackage: Save=179.206894ms
+[2015.09.04-17.04.43:857][428]LogSavePackage: Moving '../../../../../../Users/Wille/Documents/maya/projects/Zero/Saved/Player1_Ship8858D5E544E4F5FC9E84D0AB8E3A600B.tmp' to '../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset'
+[2015.09.04-17.04.43:859][428]LogSavePackage: Total save time: 204.609405ms
+[2015.09.04-17.04.43:859][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset
+[2015.09.04-17.04.43:860][428]BlueprintEditorCompileResults: Info [0353.75] Compile of Player1_Ship successful! [in 435 ms]
+[2015.09.04-17.04.43:894][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 480/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.44:373][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.04.44:373][483]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.04.44:373][483]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:04:44 PM)
+[2015.09.04-17.04.44:373][483]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.04.44:378][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004579s)
+[2015.09.04-17.04.44:378][483]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.04.44:378][483]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2015.09.04-17.04.44:378][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005238s)
+[2015.09.04-17.04.44:404][483]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.04.44:407][483]LogInit: FAudioDevice initialized.
+[2015.09.04-17.04.44:444][483]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.44:446][483]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.04.44
+[2015.09.04-17.04.44:446][483]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.44:446][483]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.44:447][483]LogWorld: Bringing up level for play took: 0.001392
+[2015.09.04-17.04.44:447][483]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.04-17.04.44:448][483]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.04.44:469][483]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu -0.349
+[2015.09.04-17.04.44:504][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 790/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.45:259][504]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.startMenu_C_4
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.04.45:259][504]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.04.45:659][515]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.gamemodeMenu_C_4
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-17.04.45:659][515]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-17.04.46:489][537]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.46:543][537]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.46:543][537]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.46:543][537]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.46:564][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009EF0E8E0
+[2015.09.04-17.04.46:567][537]Cmd: MEM
+[2015.09.04-17.04.46:589][537]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.04.46:589][537]LogMemory: Process Physical Memory: 1310.69 MB used, 1320.13 MB peak
+[2015.09.04-17.04.46:589][537]LogMemory: Process Virtual Memory: 2966.55 MB used, 3129.02 MB peak
+[2015.09.04-17.04.46:589][537]LogMemory: Physical Memory: 5531.83 MB used, 16312.56 MB total
+[2015.09.04-17.04.46:589][537]LogMemory: Virtual Memory: 3593.09 MB used, 8388608.00 MB total
+[2015.09.04-17.04.46:589][537]LogMemory: 
+[2015.09.04-17.04.46:589][537]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.04.46:775][537]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.04.46:776][537]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.46:783][537]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.04.46
+[2015.09.04-17.04.46:783][537]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.46:783][537]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.46:783][537]LogWorld: Bringing up level for play took: 0.006854
+[2015.09.04-17.04.48:658][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000169494E0
+[2015.09.04-17.04.50:216][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.50:594][793]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.50:620][796]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:029][844]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:499][897]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:676][918]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:804][931]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:829][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:854][937]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.51:962][950]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.52:012][956]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.52:329][992]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.53:512][134]BlueprintLog: New page: Compile Player1_Ship
+[2015.09.04-17.04.53:747][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zer0/Blueprints/Player1_Ship" FILE="../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset" SILENT=true
+[2015.09.04-17.04.53:789][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:790][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:791][134]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:812][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:813][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:814][134]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:833][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:834][134]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:901][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:902][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'isDead' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:944][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Fuel' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardStart' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ForwardEnd' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'ShipMeshComponent' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireRate' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'CanFire' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'FireSound' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxHealth' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'maxBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'boostText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'healthText' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementSpeed' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:945][134]LogBlueprintUserMessages: Serialization for Get node for variable 'currentBoost' in Blueprint '/Game/Zer0/Blueprints/Player1_Ship.Player1_Ship' which is setup as pure
+[2015.09.04-17.04.53:946][134]LogSavePackage: Save=177.920883ms
+[2015.09.04-17.04.53:946][134]LogSavePackage: Moving '../../../../../../Users/Wille/Documents/maya/projects/Zero/Saved/Player1_ShipB5BA2FA6407696F45EA7E2ABF6BE5F83.tmp' to '../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset'
+[2015.09.04-17.04.53:948][134]LogSavePackage: Total save time: 200.718842ms
+[2015.09.04-17.04.53:948][134]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Wille/Documents/maya/projects/Zero/Content/Zer0/Blueprints/Player1_Ship.uasset
+[2015.09.04-17.04.53:951][134]BlueprintEditorCompileResults: Info [0363.84] Compile of Player1_Ship successful! [in 438 ms]
+[2015.09.04-17.04.53:984][135]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 478/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.54:297][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.04.54:297][169]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.04.54:298][169]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:04:54 PM)
+[2015.09.04-17.04.54:298][169]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.04.54:302][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003982s)
+[2015.09.04-17.04.54:302][169]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.04.54:302][169]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2015.09.04-17.04.54:302][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.004564s)
+[2015.09.04-17.04.54:327][169]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.04.54:330][169]LogInit: FAudioDevice initialized.
+[2015.09.04-17.04.54:366][169]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.54:368][169]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.04.54
+[2015.09.04-17.04.54:368][169]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.54:368][169]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.54:369][169]LogWorld: Bringing up level for play took: 0.001336
+[2015.09.04-17.04.54:369][169]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.04-17.04.54:370][169]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.04.54:389][169]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu -0.429
+[2015.09.04-17.04.54:423][171]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 788/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.04.55:171][190]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.startMenu_C_5
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.04.55:171][190]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.04.55:679][204]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	gamemodeMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.gamemodeMenu_C_5
+	Function /Game/Zer0/UMG/Menus/gamemodeMenu.gamemodeMenu_C:ExecuteUbergraph_gamemodeMenu:0051
+[2015.09.04-17.04.55:679][204]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint gamemodeMenu
+[2015.09.04-17.04.56:510][226]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.56:564][226]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TwinStickExampleMap.umap.
+[2015.09.04-17.04.56:564][226]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.56:564][226]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.04.56:587][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009E6B9760
+[2015.09.04-17.04.56:591][226]Cmd: MEM
+[2015.09.04-17.04.56:615][226]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.04.56:615][226]LogMemory: Process Physical Memory: 1339.24 MB used, 1339.25 MB peak
+[2015.09.04-17.04.56:615][226]LogMemory: Process Virtual Memory: 3072.46 MB used, 3356.18 MB peak
+[2015.09.04-17.04.56:615][226]LogMemory: Physical Memory: 5686.37 MB used, 16312.56 MB total
+[2015.09.04-17.04.56:615][226]LogMemory: Virtual Memory: 3685.92 MB used, 8388608.00 MB total
+[2015.09.04-17.04.56:615][226]LogMemory: 
+[2015.09.04-17.04.56:615][226]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.04.56:806][226]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.04.56:806][226]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.04.56:813][226]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.04.56
+[2015.09.04-17.04.56:813][226]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.56:814][226]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.04.56:814][226]LogWorld: Bringing up level for play took: 0.006835
+[2015.09.04-17.05.01:426][445]Cmd: RestartLevel
+[2015.09.04-17.05.01:446][446]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap?restart
+[2015.09.04-17.05.01:466][446]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2015.09.04-17.05.01:494][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001190E5C0
+[2015.09.04-17.05.01:494][446]Cmd: MEM
+[2015.09.04-17.05.01:516][446]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-17.05.01:516][446]LogMemory: Process Physical Memory: 1339.37 MB used, 1343.29 MB peak
+[2015.09.04-17.05.01:516][446]LogMemory: Process Virtual Memory: 2886.43 MB used, 3356.18 MB peak
+[2015.09.04-17.05.01:516][446]LogMemory: Physical Memory: 5686.02 MB used, 16312.56 MB total
+[2015.09.04-17.05.01:516][446]LogMemory: Virtual Memory: 3500.04 MB used, 8388608.00 MB total
+[2015.09.04-17.05.01:516][446]LogMemory: 
+[2015.09.04-17.05.01:516][446]Allocator Stats for TBB: (not implemented)
+[2015.09.04-17.05.01:702][446]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2015.09.04-17.05.01:702][446]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.05.01:710][446]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2015.09.04-19.05.01
+[2015.09.04-17.05.01:710][446]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.05.01:710][446]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.05.01:710][446]LogWorld: Bringing up level for play took: 0.007462
+[2015.09.04-17.05.04:760][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001183CE00
+[2015.09.04-17.05.06:102][724]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 763/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.05.06:162][727]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.05.07:651][769]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.05.08:030][782]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.05.08:703][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.04-17.05.08:703][800]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2015.09.04-17.05.08:704][800]PIE: New page: PIE session: StartMenu (Sep 4, 2015, 9:05:08 PM)
+[2015.09.04-17.05.08:704][800]LogPlayLevel: Creating play world package: /Game/Zer0/Maps/UEDPIE_0_StartMenu
+[2015.09.04-17.05.08:709][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004993s)
+[2015.09.04-17.05.08:709][800]LogAIModule: Creating AISystem for world StartMenu
+[2015.09.04-17.05.08:709][800]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2015.09.04-17.05.08:709][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Zer0/Maps/StartMenu.StartMenu to /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu (0.005630s)
+[2015.09.04-17.05.08:734][800]LogInit: XAudio2 using 'Speakers (4- Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.09.04-17.05.08:738][800]LogInit: FAudioDevice initialized.
+[2015.09.04-17.05.08:770][800]LogWorld: Game class is 'TwinStickGameMode_C'
+[2015.09.04-17.05.08:772][800]LogWorld: Bringing World /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2015.09.04-19.05.08
+[2015.09.04-17.05.08:772][800]LogActor:Warning: GameSession /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.05.08:772][800]LogActor:Warning: GameNetworkManager /Game/Zer0/Maps/UEDPIE_0_StartMenu.StartMenu:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.04-17.05.08:772][800]LogWorld: Bringing up level for play took: 0.001353
+[2015.09.04-17.05.08:774][800]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2015.09.04-17.05.08:782][800]PIE: Info Play in editor start time for /Game/Zer0/Maps/UEDPIE_0_StartMenu -0.036
+[2015.09.04-17.05.08:825][801]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 918/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-17.05.09:960][829]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	startMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.startMenu_C_6
+	Function /Game/Zer0/UMG/Menus/startMenu.startMenu_C:ExecuteUbergraph_startMenu:0051
+[2015.09.04-17.05.09:960][829]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Add to Viewport in graph 'EventGraph' in blueprint startMenu
+[2015.09.04-17.05.11:124][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021755620
+[2015.09.04-17.05.12:900][920]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-20.38.23:436][291]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 763/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-23.32.52:560][699]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 811/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-23.32.55:913][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementE44B9CC74AAC83AB80026E84F79B0E99) Not registered. Aborting.
+[2015.09.04-23.32.55:913][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement1A3814E714D988785F84A5C8FE8F6EF10) Not registered. Aborting.
+[2015.09.04-23.32.56:977][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.04-23.32.57:397][820]Cmd: QUIT_EDITOR
+[2015.09.04-23.32.57:504][820]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2015.09.04-23.32.57:606][820]LogHMD: Oculus shutdown.
+[2015.09.04-23.32.57:709][820]LogExit: Preparing to exit.
+[2015.09.04-23.32.58:235][820]LogExit: Editor shut down
+[2015.09.04-23.32.58:235][820]LogExit: Transaction tracking system shut down
+[2015.09.04-23.32.58:237][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B29A700
+[2015.09.04-23.32.58:237][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000340E7880
+[2015.09.04-23.32.58:237][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000345CF880
+[2015.09.04-23.32.58:238][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000139D2FC0
+[2015.09.04-23.32.58:238][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000139D3600
+[2015.09.04-23.32.58:240][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008C0EC400
+[2015.09.04-23.32.58:240][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000912A8EA0
+[2015.09.04-23.32.58:248][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005FE8B7E0
+[2015.09.04-23.32.58:248][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005FE8B2E0
+[2015.09.04-23.32.58:248][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009968AFC0
+[2015.09.04-23.32.58:250][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FF73600
+[2015.09.04-23.32.58:250][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003402D620
+[2015.09.04-23.32.58:390][820]LogExit: Object subsystem successfully closed.
+[2015.09.04-23.32.58:395][820]LogD3D11RHI: Shutdown
+[2015.09.04-23.32.58:395][820]LogD3D11RHI: CleanupD3DDevice
+[2015.09.04-23.32.58:396][820]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module TextureEditor (201)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.09.04-23.32.58:523][820]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module SceneOutliner (191)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.04-23.32.58:524][820]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.04-23.32.58:803][820]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.04-23.32.58:804][820]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.04-23.32.59:036][820]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.04-23.32.59:041][820]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.04-23.32.59:042][820]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.04-23.32.59:042][820]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.04-23.32.59:091][820]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.04-23.32.59:091][820]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.04-23.32.59:092][820]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.04-23.32.59:192][820]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.04-23.32.59:193][820]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.04-23.32.59:194][820]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.04-23.32.59:196][820]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.04-23.32.59:294][820]LogDerivedDataCache: Shutdown
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.04-23.32.59:294][820]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.04-23.33.01:294][820]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.04-23.33.01:295][820]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.04-23.33.01:295][820]LogExit: Exiting.
+[2015.09.04-23.33.01:296][820]Log file closed, 09/05/15 01:33:01
